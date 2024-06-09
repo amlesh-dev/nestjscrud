@@ -8,7 +8,7 @@ import {
   Put,
   Delete,
 } from '@nestjs/common';
-import { UserService } from './user.service';
+import { UserService } from '../Services/user.service';
 import { CreateUserDto } from '../DTO/user.dto';
 import { User } from '../DTO/user.interface';
 
